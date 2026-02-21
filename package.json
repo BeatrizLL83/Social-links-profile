@@ -1,0 +1,23 @@
+{
+  "name": "social-links-profile",
+  "version": "1.0.0",
+  "description": "Este es un proyecto del curso de JavaScript para practicar HTML y CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatrizLL83/Social-links-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "type": "module",
+  "prettier"{
+    "singleQuote": true,
+  "bugs": {
+    "url": "https://github.com/BeatrizLL83/Social-links-profile/issues"
+  },
+  "homepage": "https://github.com/BeatrizLL83/Social-links-profile#readme"
+}
