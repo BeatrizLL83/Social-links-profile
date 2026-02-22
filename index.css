@@ -1,0 +1,86 @@
+/* 1. RESET: Para que las medidas sean exactas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center; /* Centra horizontal */
+  align-items: center;     /* Centra vertical */
+  min-height: 100vh;       /* Altura de toda la pantalla */
+  background-color: #141414; /* Color oscuro típico de este reto */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #acee89e5; /* Fondo oscuro */
+    display: flex;
+    justify-content: center; /* Centra horizontal */
+    align-items: center;     /* Centra vertical */
+    min-height: 100vh;       /* Toda la pantalla */
+    color: white;
+}
+
+/* 2. LA TARJETA (CARD) */
+.card {
+    background-color: #637afc; /* Morado noche */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    max-width: 90%; /* Responsive para móvil */
+    /* Sombra: desplazamiento X, desplazamiento Y, desenfoque, color */
+    box-shadow: 0 10px 30px rgb(1, 1, 2); 
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Foto circular */
+    margin-bottom: 20px;
+}
+
+.location {
+    color: #c5f82a; /* Color verde lima típico */
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+}
+
+.bio {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #cae04c;
+}
+
+/* 3. LOS BOTONES */
+.links {
+    display: flex;
+    flex-direction: column; /* Uno debajo de otro */
+    gap: 15px;             /* Espacio entre botones */
+}
+
+.social-btn {
+    display: block;          /* Ocupa todo el ancho */
+    text-decoration: none;   /* Quita el subrayado azul */
+    background-color: #333333;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;     /* Separación entre ellos */
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #c5f82a;
+    color: #141414;
+}
+
+/* HOVER: Fundamental para nota en el examen */
+.social-btn:hover {
+    background-color: #c5f82a;
+    color: #141414;
+}
