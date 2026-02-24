@@ -5,21 +5,21 @@
     box-sizing: border-box;
 }
 body {
-  display: flex;
-  justify-content: center; /* Centra horizontal */
-  align-items: center;     /* Centra vertical */
-  min-height: 100vh;       /* Altura de toda la pantalla */
-  background-color: #141414; /* Color oscuro típico de este reto */
-  margin: 0;
-  font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centra horizontal */
+    align-items: center; /* Centra vertical */
+    min-height: 100vh; /* Altura de toda la pantalla */
+    background-color: #141414; /* Color oscuro típico de este reto */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     background-color: #acee89e5; /* Fondo oscuro */
     display: flex;
     justify-content: center; /* Centra horizontal */
-    align-items: center;     /* Centra vertical */
-    min-height: 100vh;       /* Toda la pantalla */
+    align-items: center; /* Centra vertical */
+    min-height: 100vh; /* Toda la pantalla */
     color: white;
 }
 
@@ -32,12 +32,12 @@ body {
     width: 350px;
     max-width: 90%; /* Responsive para móvil */
     /* Sombra: desplazamiento X, desplazamiento Y, desenfoque, color */
-    box-shadow: 0 10px 30px rgb(1, 1, 2); 
+    box-shadow: 0 10px 30px rgb(1, 1, 2);
 }
 
 .avatar {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%; /* Foto circular */
     margin-bottom: 20px;
 }
@@ -58,17 +58,17 @@ body {
 .links {
     display: flex;
     flex-direction: column; /* Uno debajo de otro */
-    gap: 15px;             /* Espacio entre botones */
+    gap: 15px; /* Espacio entre botones */
 }
 
 .social-btn {
-    display: block;          /* Ocupa todo el ancho */
-    text-decoration: none;   /* Quita el subrayado azul */
+    display: block; /* Ocupa todo el ancho */
+    text-decoration: none; /* Quita el subrayado azul */
     background-color: #333333;
     color: white;
     padding: 12px;
     border-radius: 8px;
-    margin-bottom: 15px;     /* Separación entre ellos */
+    margin-bottom: 15px; /* Separación entre ellos */
     font-weight: bold;
     text-align: center;
     transition: 0.3s;
